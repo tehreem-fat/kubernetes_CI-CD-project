@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        DOCKER_HUB = '<your-dockerhub-username>'
+        DOCKER_HUB = 'tehreem13'
         IMAGE_NAME = 'ci-cd-app'
     }
     stages {
